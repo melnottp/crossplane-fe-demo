@@ -1,0 +1,12 @@
+apiVersion: ecs.flexibleengine.upbound.io/v1beta1
+kind: KeyPair
+metadata:
+  annotations:
+    meta.upbound.io/example-id: ecs/v1beta1/keypair
+  labels:
+    testing.upbound.io/example-name: example_keypair
+  name: example-keypair
+spec:
+  forProvider:
+    publicKey: ssh-rsa
+      AAAAB3NzaC1yc2EAAAADAQABAAABgQC0MOch1P8Ls4/vFkfMGiExjarvcqIbHMr0NmF5jhd9EHKkfyeLMPQZazN/X5Lqln9y1CzKnd/oBCSzfLad3yFTjdau5ynxmXjdM4o7jljCyu2KsegEatJfutcZ9orkkWAcjRBkBs+CVKFXLZdDyFFMJJyYeAso1j9lg5LktFme95OKqTnveW/8knlhjzeL4uKSdag6DVhiTmBSEOem+gkJmjHwqOb1/WrMszbG5z1CpimI87+LtrBpP+U+XOs7gDmQVf13qFEi2QY5sraow8DN6Emdg2xCzCpxNyY480tzproDhma5y/DyAkkJaGAgyYM7r63CZpNreZfznakwIoV8v7RMzXIKM1DpdVpLcUopW2ERMbZ+EGVcJGltRrELAnq51mgVbLLiftiKmjwl1FL4WY8VN20ZN8n50lv+PI5XFxY+EGrZrcaF+Xu1Rl+LJz0ZW2WiWR+ZZ9+Yrrm6FS+y5FgSYvmXHBR2nILmjTOlxU6T/Dn8ZDoj18G2zmKtNxE=
