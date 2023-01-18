@@ -19,6 +19,12 @@ helm list -n crossplane-system
 kubectl get all -n crossplane-system
 ```
 
+## Install Crossplane CLI 
+```bash
+curl -sL https://raw.githubusercontent.com/crossplane/crossplane/master/install.sh | sh
+sudo mv up /usr/local/bin/
+up --version
+```
 # FlexibleEngine provider documentation
 
 ## Install the provider
