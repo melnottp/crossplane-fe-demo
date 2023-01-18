@@ -5,14 +5,16 @@ https://marketplace.upbound.io/providers/frangipaneteam/provider-flexibleengine
 # Crossplane Installation
 
 ## Install Crossplane with Helm
-```kubectl create namespace crossplane-system
+```bash
+kubectl create namespace crossplane-system
 helm repo add crossplane-stable https://charts.crossplane.io/stable
 helm repo update
 
 helm install crossplane --namespace crossplane-system crossplane-stable/crossplane
 ```
 ## Check Status
-```helm list -n crossplane-system
+```bash
+helm list -n crossplane-system
 
 kubectl get all -n crossplane-system
 ```
