@@ -5,7 +5,7 @@ metadata:
 spec:
   forProvider:
     acl: private
-    bucket: flexibleengine-bucket-938a623db
+    bucket: flexibleengine-bucket-938a623
     storageClass: STANDARD
   providerConfigRef:
     name: default
